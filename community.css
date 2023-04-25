@@ -1,0 +1,69 @@
+#star{
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+        
+         width: 1440px;
+        height:72px;
+}
+
+
+
+#Up{
+    display: flex;
+    margin-left: 90px;
+    gap:30px;
+    margin-right: 50px;
+}
+
+#Up{
+    width: 1440px;
+    height: 72px;
+    margin-left: 1580px;
+
+    
+}
+
+#Paper{
+    margin-left: 40px;
+}
+
+#shift{
+    text-align: center;
+}
+
+#Text1{
+    margin-bottom: 18px;
+    margin-top: -14px;
+}
+
+#Text2{
+    text-decoration: none;
+    color:black;
+}
+
+#Part2{
+    display: flex;
+    
+}
+#Volunteer-info{
+    padding: 100px;
+    
+}
+p {
+    font-size:40px;
+}
+
+#Part2{
+    margin-top: 85px;
+    margin-bottom: 68px;
+}
+
+
+
+#Together{
+    display: flex;
+}
+#Opportunity2{
+    margin-left:50px;
+}
