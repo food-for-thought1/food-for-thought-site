@@ -9,7 +9,43 @@
   <title>Resources</title>
 </head>
 <body>
-  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="community.html">Support the Community</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Additional Reading
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://research.library.fordham.edu/environ_2015/92/" target = "_blank">Fordam Research</a></li>
+            <li><a class="dropdown-item" href="https://missouriindependent.com/2021/06/27/food-insecurity-linked-to-gun-violence-urban-farms-in-st-louis-work-on-a-solution/" target = "_blank">St. Louis Urban Farms</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <main>
   <section class = "section-1">
     <div id = "head-text-1">
       <h1>Resources to grow food equity in NYC</h1>
@@ -29,7 +65,7 @@
     <div id = "snap-text">
       <h2>Apply for SNAP</h2>
       <p>The Supplemental Nutrition Assistance Program (formerly known as “food stamps”) provides food assistance for low-income New Yorkers. SNAP helps families and individuals supplement the cost of their diet with nutritious foods.</p>
-      <a href="https://www.nyc.gov/site/hra/help/snap-benefits-food-program.page" target="_blank"><button>Apply</button></a>
+      <a href="https://www.nyc.gov/site/hra/help/snap-benefits-food-program.page" target="_blank"><button id = "snap-apply">Apply</button></a>
     </div>
   </section>
   <section class ="section-3">
@@ -37,10 +73,13 @@
     <div id = "text-box-3">
       <h1>NYC Food Pantries</h1>
       <p>Food pantries are organizations that provide food assistance to individuals and families who are experiencing food insecurity or struggling to make ends meet. Food pantries play an important role in supporting the nutritional needs of individuals and families in their communities. They rely on the support of volunteers and donations to operate, and can be a valuable resource for those in need of food assistance.</p>
-      <a href="https://www.nyc.gov/site/dycd/services/food_pantries.page" target="_blank">Find Food Panties Near You</a>
+      <a href="https://www.nyc.gov/site/dycd/services/food_pantries.page" target="_blank">Find Food Pantries Near You</a>
     </div>
   </section>
-  <!--<section></section>-->
+  <section class = "map">
+    <h3>Pantry Closest to Marcy</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12108.794027756745!2d-74.01983356287177!3d40.64755441942161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ac70af581d9%3A0xf5a61de19710a7f5!2sCenter%20For%20Family%20Life!5e0!3m2!1sen!2sus!4v1682545055646!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
   <section class ="section-4">
     <img src="resources-images/image 4.png"></img>
     <div id = "text-box-4">
@@ -58,13 +97,14 @@
       <a href="https://mutualaid.nyc/mutual-aid-groups/" target="_blank">Learn More</a>
     </div>
   </section>
+  </main>
   <footer>
     <div id = "footer-links">
-        <p><a>Home</a></p>
-        <p><a>Resources</a></p>
-        <p><a>Support the Community</a></p>
+        <p><a href = "index.html">Home</a></p>
+        <p><a href = "#">Resources</a></p>
+        <p><a href = "community.html">Support the Community</a></p>
       </div>
-      <p>Copyright 2023, Food for Thought</p>
+      <p id = "copyright">Copyright 2023, Food for Thought</p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>

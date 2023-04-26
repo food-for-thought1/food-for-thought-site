@@ -1,16 +1,24 @@
-body {
+body{
+    width:100vw;
+    margin:auto;
+}
+main {
     margin:auto;
     text-align: center;
     font-family: sans-serif;
+    width:90vw;
 }
 
 a {
     text-decoration: none;
+    color:#D27C4F;
 }
 
-button {
+/*width="600" height="450"*/
+
+#snap-apply {
     height: 50px;
-    width: 500px;
+    width: 50vw;
     font-size: 15px;
     font-weight: bold;
     border: 2px solid black;
@@ -19,22 +27,33 @@ button {
     color: white;
 }
 
+#snap-apply:hover{
+    background-color:#4D6B0C;
+    transition: 0.5s;
+}
+
 button:hover {
     background-color:#4D6B0C;
     transition: 0.5s;
 }
 
-#carouselExampleAutoplaying img{
-    width:100vw;
+iframe {
+    width: 90vw;
+    height: 60vw;
+}
+img {
+    margin:auto;
+    width:80vw;
     height: auto;
+}
+.section-1 img{
+    margin:auto;
+    width:90vw;
 }
 
-img {
-    width:90vw;
-    height: auto;
-}
-.section-1{
-    padding:10px;
+#head-text-1 {
+    margin:auto;
+    width:50vw;
 }
 
 .section-2 img {
@@ -42,7 +61,7 @@ img {
 }
 
 .section-2 {
-    padding:10px 10px 0px 10px;
+    padding:10px;
     background-color: #F2EDEA;
 }
 
@@ -60,6 +79,10 @@ img {
     background-color: #F2EDEA;
 }
 
+.map{
+    color:#4D6B0C;
+}
+
 .section-5{
     padding:10px;
 }
@@ -69,6 +92,7 @@ footer {
     flex-direction:column;
     justify-content:space-around;
     background-color: #D27C4F;
+    text-align: right;
 }
 
 #footer-links{
@@ -77,8 +101,18 @@ footer {
     justify-content:space-around;
 }
 
+#footer-links a{
+        color:black;
+    }
+    
+#copyright {
+    margin-right:10%;
+}
+
+
 @media (min-width:720px){
-    body {
+    main {
+        margin-top:20px;
         display:flex;
         flex-direction: column;
         align-items:center;
@@ -122,6 +156,10 @@ footer {
         margin: 10px;
     }
     
+    #snap-apply{
+        width: 40vw;
+    }
+    
     .section-3 {
         display:flex;
         justify-content:space-between;
@@ -157,6 +195,11 @@ footer {
         height: auto;
     }
     
+    iframe{
+        width:80vw;
+        height:70vh;
+    }
+    
     .section-5 {
         display:flex;
         justify-content:space-between;
@@ -176,7 +219,9 @@ footer {
     }
     
     footer{
-        width:90vw;
+        box-sizing: border-box;
+        margin:auto;
+        width:100vw;
         display:flex;
     }
 }
