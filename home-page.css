@@ -14,6 +14,7 @@
     /*margin-bottom: 30px;*/
     display: flex;
     flex-direction: column;
+    /*margin: 15px;*/
     /*background-color: #F5D9B7;*/
 }
 
@@ -147,6 +148,12 @@ border: 1px solid #ccc;
     background-color: #4D6B0C;
 }
 
+.section4-body{
+    background-color: white;
+    opacity: 0.7;
+    padding: 10px;
+}
+
 .section4-body h2{
     margin-top: 80px;
     font-size: 45px;
@@ -175,10 +182,10 @@ border: 1px solid #ccc;
 }
 
 .section4-body button:hover{
-    background-color: white;
+    background-color: #4D6B0C;
     cursor: pointer;
     border: none;
-    color: black;
+    color: white;
     transition: 0.5s;
 }
 
@@ -197,6 +204,16 @@ border: 1px solid #ccc;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.list{
+    max-width: 500px;
+    border: 1px solid gray;
+    margin-left: 20px;
+    padding: 15px;
+}
+.list li{
+    font-size: 18px;
 }
 
 .video{
@@ -442,6 +459,8 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     }
+    
+    
 
     .facts{
         margin-left: 30px;
