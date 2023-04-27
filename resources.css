@@ -9,6 +9,11 @@ main {
     width:90vw;
 }
 
+#logo {
+    width:100px;
+    height:100px;
+}
+
 a {
     text-decoration: none;
     color:#D27C4F;
