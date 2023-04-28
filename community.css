@@ -203,8 +203,8 @@ body{
     text-decoration: none;
     text-align: center;
     color: black;
-     border: solid black 1px;
-
+    border: solid black 1px;
+	
 }
 
 #YouTube{
@@ -252,14 +252,14 @@ footer {
     background-color: white;
 }
 
- .donation-container {
-	height: 1000px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	font-size: 12px;
-	text-transform: uppercase;
-	margin-top: 30px;
-}
+/* .donation-container {*/
+/*	height: 1000px;*/
+/*	font-family: 'Montserrat', sans-serif;*/
+/*	font-weight: 500;*/
+/*	font-size: 12px;*/
+/*	text-transform: uppercase;*/
+/*	margin-top: 30px;*/
+/*}*/
 
 .donation-box {
 	width:600px;
@@ -835,14 +835,14 @@ donation-container {
 
 
 
-.volunteer-container {
-	height: 1000px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	font-size: 12px;
-	text-transform: uppercase;
-	margin-top: 30px;
-}
+/*.volunteer-container {*/
+/*	height: 1000px;*/
+/*	font-family: 'Montserrat', sans-serif;*/
+/*	font-weight: 500;*/
+/*	font-size: 12px;*/
+/*	text-transform: uppercase;*/
+/*	margin-top: 30px;*/
+/*}*/
 
 .donation-box {
 	width: 600px;
@@ -1150,7 +1150,7 @@ body{
 }
 .container{
     width: 85vmin;
-    position: absolute;
+    /*position: absolute;*/
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
@@ -1190,7 +1190,7 @@ body{
         transform: translateX(-300%);
     }
 }
-img{
+.slide-img{
     width: 100%;
 }
 
@@ -1203,18 +1203,19 @@ img{
 body{
     background-color: #7aacff;
 }
-.container{
-    width: 85vmin;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
+.slide-container{
+    width: 100%;
+    /*position: absolute;*/
+    /*transform: translate(-50%,-50%);*/
+    /*margin-top: 50%;*/
+   
+    
     overflow: hidden;
     border: 20px solid #ffffff;
     border-radius: 8px;
     box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
 }
-.wrapper{
+.slide-wrapper{
     width: 100%;
     display: flex;
     animation: slide 16s infinite;
@@ -1245,6 +1246,52 @@ body{
         transform: translateX(-300%);
     }
 }
-img{
+.slide-img{
     width: 100%;
 }
+@media only screen and (max-width: 600px) {
+    	#YouTube{
+        display: flex;
+        flex-direction:column ;
+        margin:auto;
+        width: 540px;
+        height: 463px;
+        margin-top: 20px;
+    }
+    
+  }
+@media only screen and (max-width: 600px) {
+    	#Part2{
+    	display: flex;
+    	flex-direction:column ;
+  }
+}
+@media only screen and (max-width: 600px) {
+    	#Voluneteer{
+    margin:auto;
+        width: 200px;
+         height: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    	#Opportunity2{
+    	display: flex;
+    	flex-direction:column ;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    	#Together{
+    	display: flex;
+  }
+}
+@media only screen and (max-width: 600px) {
+    	.checksbox{
+    	display: flex;
+    	/*flex-direction:column ;*/
+  }
+}
+
+
+
